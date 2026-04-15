@@ -1,4 +1,4 @@
-export default class ArrayExtension<T> {
+export class ArrayExtension<T> {
   readonly array: T[];
 
   constructor(array: T[]) {
